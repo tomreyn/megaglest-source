@@ -22,13 +22,7 @@ matrix:
             - libsdl2-dev
       env: Tr_Compiler_Version="default"
       dist: trusty
-     - os: windows
-      compiler: gcc
-      addons:
-          apt:
-            packages:
-            - libsdl2-dev
-      env: Tr_Compiler_Version="default"
+    - os: windows
     - os: linux
       compiler: clang
       addons:
